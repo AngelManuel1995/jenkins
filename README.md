@@ -3,12 +3,12 @@
 2. Execute docker-compose up -d
 
 
-Plugins:
+###### Plugins:
 1. Docker Pipeline: Permite administrar contenedores de docker
 n. Adding nodes to jenkins:
 	- Management jenkins - management nodes - new node - type the name and select (Permanent Agent)
 
-Nodos:
+###### Nodos:
 1. A jenkins node is a server we can manager with a jenkins agent. Step to set up a jenkins node.
 	- via ssh:
 	- We need to generata a private and public ssh key, and we can do it running the next command: ssh-keygen -f key_name - [ ssh-keygen -f mypubkey ].
