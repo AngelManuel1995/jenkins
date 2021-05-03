@@ -9,7 +9,7 @@
 	- We can select this option - Discard old builds to set how many job we want to have.
 	- Source code Management: We can use our repositories.
 	- We can paramateriz the project with a kind of environment varibles we can access writing the job definition.
-	- Build triggers: Here we can define where we want the jon runs.
+	- Build triggers: Here we can define where we want the jon runs. even if we want a new job runs after other is done (Build before other proects are built).
 	- Build envarionment: A good practice here it's to select - delete workspace before build starts. Another good option is - Abort the build if it's stuck and select: absolute and select the time. and we can also select the option of - add timestamo to the console output.
 
 ###### Plugins:
