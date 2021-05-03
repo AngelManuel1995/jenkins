@@ -17,7 +17,10 @@
 n. Adding nodes to jenkins:
 	- Management jenkins - management nodes - new node - type the name and select (Permanent Agent).
 	- Some of those job we are going to work with.
-		- NodeJS: Allow us to run node commands - we can configure node in: Management Jenkins - Global tools configuration - and add NodeJS and type de node it can be the version we want to install. 
+		- NodeJS: Allow us to run node commands - we can configure node in: Management Jenkins - Global tools configuration - and add NodeJS and type de name. it can be the version we want to install. 
+			- To use NodeJs Plugin in a free project we have select the option Provide Node & npm bin/ folder to PATH in environment execution section and select the version we want to use.
+		- CloudBees Docker build and publish plugin: It allows us to so it allows to build and publish images. (Configurar correctamente los permisos de usuario jenkins en el grupo de docker para que se pueda conectar con el socket que permite la conexión a la API)
+		-
 
 ###### Nodos:
 1. A jenkins node is a server we can manager with a jenkins agent. Step to set up a jenkins node.
@@ -56,10 +59,7 @@ n. Adding nodes to jenkins:
 7. We have to start the jenkins service: systemctl start jenkins and check the status: systemctl status jenkins
 8. Allow the firewall access: ufw allow 8080 - ufw enable
 
-
-
-
-
-
+###### CI (Continuos integreation):
+1. The CI is the software enginer practice that allow us to make integrations coutinuosly and frecuenly so then we can detect bugs as soon as posible.
 
 
