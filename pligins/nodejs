@@ -1,0 +1,6 @@
+Plugin: Nodejs.
+Usage: 
+We have to install the plugin nodejs plugin.
+We have to make a global configuration in Global Tool Configuration.
+We can use it in a free project selecting Provide Node & npm bin/ folder to PATH option in Environment execution.
+And finaly we can execute node commands in: Execute shell command line.

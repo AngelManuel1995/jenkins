@@ -1,0 +1,5 @@
+Plugin: CloudBees Docker Build and Publish
+Usage: 
+We have to install this plugin: CloudBees Docker Build and Publish
+Then we can use this plugin to build and publis images in a docker - registry.
+We have to have the credentials of the registry.

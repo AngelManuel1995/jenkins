@@ -1,0 +1,5 @@
+Plugin: Job DSL
+Usage: 
+We have to install this plugin job DSL
+This plugin allows us to create a job based in a groovy file that can be in a git hub repository.
+The Job DSL won't be execute until we aprove the execution at the first time.
