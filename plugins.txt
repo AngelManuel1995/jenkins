@@ -1,3 +1,4 @@
 1. NodeJS
 2. CloudBees Docker Build and Publish
-3. job DSL
+3. Job DSL
+4. Docker Pipeline
