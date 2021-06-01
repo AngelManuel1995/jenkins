@@ -1,0 +1,6 @@
+Plugin: Docker Pipeline
+Usage:
+We have to install this plugin: Docker Pipeline
+Then we can use this plugin to build and publis images in a docker - registry
+We have to have the credentials of the registry.
+Example: dockerImage = docker.build "${ARTIFACT_ID}"
