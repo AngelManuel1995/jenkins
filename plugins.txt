@@ -2,3 +2,5 @@
 2. CloudBees Docker Build and Publish
 3. Job DSL
 4. Docker Pipeline
+5. Maven Integration
+6. Maven Invoker
