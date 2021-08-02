@@ -4,3 +4,4 @@
 4. Docker Pipeline
 5. Maven Integration
 6. Maven Invoker
+7. Deploy to container
